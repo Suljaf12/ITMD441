@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #005f99;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.header-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header-container p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+a {
+  color: #ff6f00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.bio-section,
+.education-section,
+.experience-section,
+.skills-section {
+  background-color: #e0f7fa;
+  padding: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.bio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.bio-text h2,
+.education-section h2,
+.experience-section h2,
+.skills-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.bio-text p,
+.experience-section ul,
+.education-section ul,
+.skills-section ul {
+  font-size: 1.2rem;
+}
+
+.experience-section ul,
+.education-section ul,
+.skills-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.experience-section ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #005f99;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-container p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
